@@ -11,7 +11,7 @@ from qiskit_aer import AerSimulator
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 def get_access_token():
-    api_key = 'JeUteTHDdQ8xbABVFtzMvlN9FERhJojOsA8gwcpT1eod'  # Replace with your IBM Cloud API key
+    api_key = 'your api key'  # Replace with your IBM Cloud API key
     authenticator = IAMAuthenticator(api_key)
     access_token = authenticator.token_manager.get_token()
     return access_token
